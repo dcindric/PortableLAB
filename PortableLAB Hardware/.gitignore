@@ -1,0 +1,31 @@
+#Source: https://github.com/Fermium/altium-on-git/blob/master/.gitignore
+
+# Various Altium files
+*.PrjPCBStructure
+*.SchDocPreview
+*.PcbDocPreview
+__Previews
+*.PrjPcbStructure
+*.Dat
+*.REP 
+*.TLT
+*.LOG
+*.log
+*.htm
+*.$$$
+
+#useless dirs
+Project\ Logs
+
+#History
+History
+
+#Exports, but not manual ones
+exports/*
+!exports/manual
+
+#Python stuff
+scripts/__pycache__/
+*.bak
+*.dwl
+*.dwl2
