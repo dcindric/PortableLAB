@@ -81,6 +81,23 @@ GenerateClassCluster=0
 DocumentUniqueId=RWYIROGB
 
 [Document3]
+DocumentPath=AdjustableOutputPowerSource.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BSQBYNQP
+
+[Document4]
 DocumentPath=MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -97,7 +114,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VUCJYNEW
 
-[Document4]
+[Document5]
 DocumentPath=Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -114,7 +131,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RUGSUGJR
 
-[Document5]
+[Document6]
 DocumentPath=DDS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -131,7 +148,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SYBVJVTW
 
-[Document6]
+[Document7]
 DocumentPath=ProgrammablePowerSources.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -148,7 +165,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SLIUWDFG
 
-[Document7]
+[Document8]
 DocumentPath=DAQSystem.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -165,7 +182,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SVBHPNKU
 
-[Document8]
+[Document9]
 DocumentPath=Ethernet.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -182,7 +199,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DVWGRTDB
 
-[Document9]
+[Document10]
 DocumentPath=IOControl.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1131,10 +1148,22 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Miscellaneous Devices.IntLib
+ComponentDesignItemID0=Cap
+ComponentSymbolReference0=Cap
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=SamacSys.SchLib
+ComponentDesignItemID1=TPS55383PWPR
+ComponentSymbolReference1=TPS55383PWPR
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1148,6 +1177,58 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Comment
+ParameterUpdate0=1
+ParameterName1=Component Kind
+ParameterUpdate1=1
+ParameterName2=Datasheet Link
+ParameterUpdate2=1
+ParameterName3=Description
+ParameterUpdate3=1
+ParameterName4=Height
+ParameterUpdate4=1
+ParameterName5=LatestRevisionDate
+ParameterUpdate5=1
+ParameterName6=LatestRevisionNote
+ParameterUpdate6=1
+ParameterName7=Library Reference
+ParameterUpdate7=1
+ParameterName8=Manufacturer_Name
+ParameterUpdate8=1
+ParameterName9=Manufacturer_Part_Number
+ParameterUpdate9=1
+ParameterName10=Mouser2 Part Number
+ParameterUpdate10=1
+ParameterName11=Mouser2 Price/Stock
+ParameterUpdate11=1
+ParameterName12=PackageDescription
+ParameterUpdate12=1
+ParameterName13=PackageReference
+ParameterUpdate13=1
+ParameterName14=Published
+ParameterUpdate14=1
+ParameterName15=Publisher
+ParameterUpdate15=1
+ParameterName16=Value
+ParameterUpdate16=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=RAD-0.3
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=SOP65P640X120-17N
+ModelUpdate1=1
+ModelTypeGroup1=SI
+ModelTypeUpdate1=1
+ModelType2=SI
+ModelName2=Cap
+ModelUpdate2=1
+ModelTypeGroup2=SIM
+ModelTypeUpdate2=1
+ModelType3=SIM
+ModelName3=CAP
+ModelUpdate3=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
